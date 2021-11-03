@@ -1,0 +1,26 @@
+.main{
+    height:100%
+
+}
+.head{
+    background: linear-gradient( #7489eb 40%, rgb(201, 22, 22) 70% ) ;
+}
+.ex2{
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.card:hover .before-hover{
+   transform: rotateY(180deg);
+   transition: 3s;
+   cursor: pointer;
+}
+.card:hover .after-hover{
+    transform: rotateY(180deg);
+   transition: 3s;
+   cursor: pointer;
+}
